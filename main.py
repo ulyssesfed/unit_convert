@@ -70,3 +70,8 @@ while True:
 
     # Output the result
     print(f"{value} {unit1} is {converted_value} {unit2}\n")
+
+    # Prompt the user to exit the program
+    exit = input("Do you want to exit the program? (y/n) ")
+    if exit.lower() == "y":
+        break
